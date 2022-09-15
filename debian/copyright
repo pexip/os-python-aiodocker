@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: python-aiodocker
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+
+Files: *
+Copyright: 2014-2020 aio-libs collaboration.
+License: Apache2
+
+Files: debian/*
+Copyright: 2022 Pexip AS <packaging@pexip.com>
+License: Apache2

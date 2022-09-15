@@ -1,0 +1,27 @@
+Source: python-aiodocker
+Section: python
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Build-Depends: debhelper-compat (= 13),
+ dh-python,
+ python3-setuptools,
+ python3-all,
+ python3-aiohttp (>= 3.6),
+ python3-typing-extensions (>= 3.6.5),
+ python3-pytest,
+ python3-pytest-asyncio,
+ python3-pytest-sugar,
+ python3-yarl,
+Standards-Version: 4.5.1
+Homepage: https://github.com/aio-libs/aiodocker
+Rules-Requires-Root: no
+Vcs-Browser: https://github.com/pexip/os-python-aiodocker
+Vcs-Git: https://github.com/pexip/os-python-aiodocker.git
+
+Package: python3-aiodocker
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: ASyncIO bindings for Docker (Python 3)
+ A simple Docker HTTP API wrapper written with asyncio and aiohttp.
+ .
+ This package installs the library for Python 3.
