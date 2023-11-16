@@ -1,3 +1,9 @@
+python-aiodocker (0.21.0-0pexip2) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:21:01 +0000
+
 python-aiodocker (0.21.0-0pexip1) pexip-bullseye; urgency=medium
 
   * Prepare Pexip Packaging
