@@ -1,3 +1,9 @@
+python-aiodocker (0.21.0-0+pexip25u1) pexip-trixie; urgency=medium
+
+  * Initial trixie build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Tue, 29 Apr 2025 22:51:39 +0100
+
 python-aiodocker (0.21.0-0+pexip24u4) pexip-bookworm; urgency=medium
 
   * New versioning scheme
